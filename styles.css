@@ -16,14 +16,13 @@ div {
 
 p,
 h2 {
-  font-size: 64px;
+  font-size: 8vh;
   background-color: #eee;
-  padding: 8px 24px;
-  border-radius: 16px;
+  padding: 1vh 3vh;
+  border-radius: 1vh;
 }
 p {
-  font-size: 36px;
-  border-radius: 10px;
+  font-size: 4vh;
   width: 80%;
 }
 
@@ -39,7 +38,7 @@ div:nth-child(2) {
 }
 
 div:nth-child(3) {
-  height: 400px;
+  height: 40vh;
   background-image: url(img/w3.jpg);
   background-size: cover;
   background-attachment: fixed;
