@@ -14,11 +14,17 @@ div {
   height: 100vh;
 }
 
+p,
 h2 {
-  font-size: 60px;
+  font-size: 64px;
   background-color: #eee;
   padding: 8px 24px;
   border-radius: 16px;
+}
+p {
+  font-size: 36px;
+  border-radius: 10px;
+  width: 80%;
 }
 
 div:nth-child(1) {
@@ -28,6 +34,8 @@ div:nth-child(1) {
 
 div:nth-child(2) {
   background: black;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 div:nth-child(3) {
